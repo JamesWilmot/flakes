@@ -21,7 +21,7 @@
         ];
 
         shellHook = ''
-          if [ ! -f /tmp/foo.txt ]; then
+          if [ ! -f /bin/bash ]; then
             sudo ln -s `pwd`/bin/bash.sh /bin/bash
           fi
         '';
